@@ -1,0 +1,41 @@
+{
+  "name": "api-recetario",
+  "version": "0.0.1",
+  "description": "API para el aplicativo de recetario",
+  "main": "app.js",
+  "scripts": {
+    "test": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://RamiroMendozaSanchez@bitbucket.org/tradiciondigital/api-recetario.git"
+  },
+  "author": "Tradición digital",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://bitbucket.org/tradiciondigital/api-recetario/issues"
+  },
+  "homepage": "https://bitbucket.org/tradiciondigital/api-recetario#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.2.0",
+    "express-session": "^1.18.0",
+    "helmet": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.3.2",
+    "multer": "^1.4.5-lts.1",
+    "os": "^0.1.2",
+    "passport": "^0.7.0",
+    "passport-jwt": "^4.0.1",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.0",
+    "validator": "^13.11.0",
+    "winston": "^3.13.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
